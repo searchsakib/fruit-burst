@@ -33,7 +33,7 @@
         theme: {
           extend: {
             colors: {
-              clifford: '#da373d',
+              'primary-color': '#F85559',
             },
           },
         },
@@ -48,9 +48,10 @@
   <body class="font-lato">
     <header>
       <!--! navbar starts here  -->
-      <nav>
-        <div class="navbar bg-base-100">
+      <nav class="my-12">
+        <div class="navbar bg-primary-color py-9 px-12 rounded-full">
           <div class="navbar-start">
+            <!-- hamburger nav items  -->
             <div class="dropdown hidden">
               <label tabindex="0" class="btn btn-ghost btn-circle">
                 <svg
@@ -71,15 +72,18 @@
                 tabindex="0"
                 class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
               >
-                <li><a>Homepage</a></li>
-                <li><a>Portfolio</a></li>
-                <li><a>About</a></li>
+                <li><a>Home</a></li>
+                <li><a>About Us</a></li>
+                <li><a>Shop</a></li>
+                <li><a>All Fruits</a></li>
               </ul>
             </div>
 
             <!-- nav items  -->
             <div class="navbar-center lg:flex">
-              <ul class="menu menu-horizontal px-1">
+              <ul
+                class="menu menu-horizontal px-1 text-white text-lg font-medium"
+              >
                 <li><a>Home</a></li>
                 <li><a>About Us</a></li>
                 <li><a>Shop</a></li>
@@ -89,7 +93,7 @@
           </div>
           <div class="navbar-center">
             <img src="./images/logo.png" alt="logo image" />
-            <a class="btn btn-ghost normal-case text-xl text-white"
+            <a class="btn btn-ghost normal-case text-4xl font-bold text-white"
               >Fruit Burst</a
             >
           </div>
