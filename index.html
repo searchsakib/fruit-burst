@@ -81,6 +81,7 @@
             >
           </div>
           <!-- hamburger nav items  -->
+
           <div class="dropdown lg:hidden">
             <label tabindex="0" class="btn btn-ghost btn-circle">
               <svg
@@ -128,13 +129,11 @@
 
     <main>
       <!-- banner section starts  -->
-      <section
-        class="max-w-screen-2xl mx-auto px-8 md:px-16 lg:px-24 my-12 hidden"
-      >
+      <section class="max-w-screen-2xl mx-auto px-8 md:px-16 lg:px-24 my-12">
         <!-- hero img with text  -->
         <div class="hero min-h-[calc(100vh - 292px)]" style="">
           <div
-            class="hero-overlay bg-gradient-to-t from-[#12121200] to-[#121212e0] z-10"
+            class="hidden md:inline-block lg:inline-block hero-overlay bg-gradient-to-t from-[#12121200] to-[#121212e0] z-10"
           ></div>
           <div class="carousel w-full">
             <div id="slide1" class="carousel-item relative w-full">
@@ -208,12 +207,16 @@
           </div>
           <div class="hero-content text-center text-neutral-content z-20">
             <div class="text-white">
-              <h1 class="mb-5 text-7xl font-extrabold">
+              <h1
+                class="text-3xl md:text-5xl lg:text-7xl font-extrabold inline"
+              >
                 Exotic tastes at your <br />
                 doorstep
               </h1>
-              <p class="mb-5">We supply highly quality organic products</p>
-              <button class="btn bg-primary-color border-none text-white">
+              <p class="my-5 text-xs md:text-sm lg:text-base">
+                We supply highly quality organic products
+              </p>
+              <button class="btn bg-primary-color border-none text-white w-1/4">
                 Shop Now
               </button>
             </div>
