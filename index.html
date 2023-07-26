@@ -270,7 +270,7 @@
             goodness now!"
           </p>
         </div>
-        <div class="flex">
+        <div class="flex mx-auto">
           <!-- timer 1  -->
           <div class="flex items-center justify-center mr-5">
             <div>
@@ -321,10 +321,12 @@
         class="max-w-screen-2xl mx-auto px-1 md:px-2 lg:px-3 my-12 overflow-hidden"
       >
         <!-- deal cards -->
-        <div class="flex gap-6">
+        <div
+          class="grid grid-cols-1 gap-3 md:grid-cols-2 md:gap-5 lg:grid-cols-4 lg:gap-6"
+        >
           <!--deal card 1  -->
           <div>
-            <div class="card w-96 bg-base-100 border">
+            <div class="card bg-base-100 border">
               <figure class="px-10 pt-10">
                 <img src="./images/deal1.png" alt="Shoes" class="rounded-xl" />
               </figure>
@@ -491,11 +493,11 @@
           </div>
           <!--deal card 2  -->
           <div>
-            <div class="card w-96 bg-base-100 border">
+            <div class="card bg-base-100 border">
               <figure class="px-10 pt-10">
                 <img src="./images/deal2.png" alt="Shoes" class="rounded-xl" />
               </figure>
-              <div class="card-body items-center text-center">
+              <div class="card-body items-center text-center pt-6">
                 <h2
                   class="card-title text-2xl font-bold border-b-2 border-gray-200 my-2 pb-5"
                 >
@@ -658,7 +660,7 @@
           </div>
           <!--deal card 3  -->
           <div>
-            <div class="card w-96 bg-base-100 border">
+            <div class="card bg-base-100 border">
               <figure class="px-10 pt-10">
                 <img
                   src="./images/deal3.png"
@@ -829,7 +831,7 @@
           </div>
           <!--deal card 4  -->
           <div>
-            <div class="card w-96 bg-base-100 border">
+            <div class="card bg-base-100 border">
               <figure class="px-10 pt-10">
                 <img src="./images/deal4.png" alt="banana" class="rounded-xl" />
               </figure>
@@ -994,6 +996,9 @@
               </div>
             </div>
           </div>
+        </div>
+        <div class="flex items-center justify-center mt-12">
+          <button class="btn bg-primary-color text-white">Show All</button>
         </div>
       </section>
     </main>
