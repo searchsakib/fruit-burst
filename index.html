@@ -49,7 +49,7 @@
     <header>
       <!--! navbar starts here  -->
       <nav
-        class="max-w-screen-2xl overflow-x-hidden mx-auto px-8 md:px-16 lg:px-24 my-12"
+        class="max-w-screen-2xl overflow-hidden mx-auto px-1 md:px-2 lg:px-3 my-12"
       >
         <div
           class="navbar bg-primary-color py-3 md:py-6 lg:py-6 px-2 md:px-4 lg:px-12 rounded-full"
@@ -129,11 +129,11 @@
 
     <main>
       <!-- banner section starts  -->
-      <section class="max-w-screen-2xl mx-auto px-8 md:px-16 lg:px-24 my-12">
+      <section class="max-w-screen-2xl mx-auto px-1 md:px-2 lg:px-3 my-12">
         <!-- hero img with text  -->
-        <div class="hero min-h-[calc(100vh - 292px)]" style="">
+        <div class="hero min-h-[calc(100vh - 290px)]" style="">
           <div
-            class="hidden md:inline-block lg:inline-block hero-overlay bg-gradient-to-t from-[#12121200] to-[#121212e0] z-10"
+            class="hidden md:inline-block lg:inline-block hero-overlay bg-gradient-to-t from-[#12121200] to-[#121212e0] z-10 rounded-lg"
           ></div>
           <div class="carousel w-full">
             <div id="slide1" class="carousel-item relative w-full">
@@ -222,39 +222,110 @@
             </div>
           </div>
         </div>
+
+        <!-- bonus five fruits  -->
+        <div
+          class="text-center w-2/3 mx-auto py-10 bg-white rounded-lg shadow-2xl absolute top-[730px] left-[250px] z-30 hidden md:hidden lg:inline-block"
+        >
+          <!-- fruit one  -->
+          <div class="inline-block mr-10">
+            <img src="./images/fruit1.png" alt="strawberry" />
+            <p class="text-center">Grape</p>
+          </div>
+          <!-- second one  -->
+          <div class="inline-block mr-10">
+            <img src="./images/fruit2.png" alt="strawberry" />
+            <p class="text-center">Orange</p>
+          </div>
+          <!-- fruit three  -->
+          <div class="inline-block mr-10">
+            <img src="./images/fruit3.png" alt="strawberry" />
+            <p class="text-center">Mango</p>
+          </div>
+          <!-- fruit four  -->
+          <div class="inline-block mr-10">
+            <img src="./images/fruit4.png" alt="strawberry" />
+            <p class="text-center">Strawberry</p>
+          </div>
+          <!-- fruit five  -->
+          <div class="inline-block">
+            <img src="./images/fruit5.png" alt="strawberry" />
+            <p class="text-center">Pomegranate</p>
+          </div>
+        </div>
       </section>
-      <!-- bonus five fruits  -->
-      <div class="">
-        <!-- fruit one  -->
-        <div class="bg-red-400 inline-block">
-          <img src="./images/fruit1.png" alt="strawberry" />
-          <p class="text-center">Strawberry</p>
+      <!-- banner section ends -->
+
+      <!-- deal of the day section starts  -->
+      <!-- upper text side  -->
+      <div
+        class="text-center md:text-center lg:text-left flex flex-col md:flex-col lg:flex-row md:justify-between lg:justify-between md:items-center lg:items-center lg:mt-60 max-w-screen-2xl mx-auto px-1 md:px-2 lg:px-3 my-12 overflow-hidden"
+      >
+        <div class="mb-5">
+          <h3 class="text-5xl font-extrabold mb-6">Deal of the day</h3>
+          <p class="text-base font-medium">
+            "Hot Deal of the Day! Discover fresh, juicy fruits at unbeatable
+            prices. Sweet apples, mouthwatering oranges, juicy <br />
+            dragons, mouthwatering bananas, and more. Limited stock, taste the
+            goodness now!"
+          </p>
         </div>
-        <!-- fruit one  -->
-        <div class="bg-red-400 inline-block">
-          <img src="./images/fruit1.png" alt="strawberry" />
-          <p class="text-center">Strawberry</p>
-        </div>
-        <!-- fruit one  -->
-        <div class="bg-red-400 inline-block">
-          <img src="./images/fruit1.png" alt="strawberry" />
-          <p class="text-center">Strawberry</p>
-        </div>
-        <!-- fruit one  -->
-        <div class="bg-red-400 inline-block">
-          <img src="./images/fruit1.png" alt="strawberry" />
-          <p class="text-center">Strawberry</p>
-        </div>
-        <!-- fruit one  -->
-        <div class="bg-red-400 inline-block">
-          <img src="./images/fruit1.png" alt="strawberry" />
-          <p class="text-center">Strawberry</p>
+        <div class="flex">
+          <!-- timer 1  -->
+          <div class="flex items-center justify-center mr-5">
+            <div>
+              <h3 class="text-5xl font-extrabold mb-2">29</h3>
+              <p class="text-base font-medium text-center">Days</p>
+            </div>
+            <i
+              class="fa-solid fa-ellipsis-vertical mx-5 mb-7"
+              style="color: #121212"
+            ></i>
+          </div>
+          <!-- timer 2  -->
+          <div class="flex items-center justify-center mr-5">
+            <div>
+              <h3 class="text-5xl font-extrabold mb-2">15</h3>
+              <p class="text-base font-medium text-center">Hours</p>
+            </div>
+            <i
+              class="fa-solid fa-ellipsis-vertical mx-5 mb-7"
+              style="color: #121212"
+            ></i>
+          </div>
+          <!-- timer 3  -->
+          <div class="flex items-center justify-center mr-5">
+            <div>
+              <h3 class="text-5xl font-extrabold mb-2">25</h3>
+              <p class="text-base font-medium text-center">Minutes</p>
+            </div>
+            <i
+              class="fa-solid fa-ellipsis-vertical mx-5 mb-7"
+              style="color: #121212"
+            ></i>
+          </div>
+          <!-- timer 4  -->
+          <div class="flex items-center justify-center mr-5">
+            <div>
+              <h3 class="text-5xl font-extrabold mb-2">08</h3>
+              <p class="text-base font-medium text-center">Seconds</p>
+            </div>
+          </div>
         </div>
       </div>
 
-      <!-- bonus five fruits  -->
+      <!-- deal of the day section ends -->
 
-      <!-- banner section ends -->
+      <!-- deal card section  -->
+      <section
+        class="max-w-screen-2xl mx-auto px-1 md:px-2 lg:px-3 my-12 overflow-hidden"
+      >
+        <!-- deal cards -->
+        <div>
+          <!-- card 1  -->
+          <div></div>
+        </div>
+      </section>
     </main>
     <footer></footer>
   </body>
