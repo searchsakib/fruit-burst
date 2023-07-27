@@ -66,8 +66,53 @@
             </div>
           </div>
 
+          <!-- for small screen start  -->
+          <div>
+            <div class="lg:hidden flex">
+              <div class="navbar-start flex">
+                <img
+                  src="./images/logo.png"
+                  alt="logo image"
+                  class="w-8 md:w-12 lg:w-16"
+                />
+                <a
+                  class="btn btn-ghost normal-case text-base md:text-2xl lg:text-4xl font-bold text-white"
+                  >Fruit Burst</a
+                >
+              </div>
+              <div class="dropdown navbar-end lg:hidden">
+                <label tabindex="0" class="btn btn-ghost btn-circle">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    class="inline-block w-5 h-5 stroke-current"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h16M4 18h16"
+                    ></path>
+                  </svg>
+                </label>
+                <ul
+                  tabindex="0"
+                  class="menu menu-sm dropdown-content mt-3 z-[50] p-2 shadow bg-base-100 rounded-box w-52"
+                >
+                  <li><a>Home</a></li>
+                  <li><a>About Us</a></li>
+                  <li><a>Shop</a></li>
+                  <li><a>All Fruits</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- for small screen ends -->
+
           <!-- logo  -->
-          <div class="navbar-center">
+          <div class="navbar-center hidden lg:inline-flex">
             <img
               src="./images/logo.png"
               alt="logo image"
@@ -80,7 +125,7 @@
           </div>
           <!-- hamburger nav items  -->
 
-          <div class="dropdown lg:hidden">
+          <div class="dropdown hidden">
             <label tabindex="0" class="btn btn-ghost btn-circle">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
